@@ -1,0 +1,1 @@
+This React Native bug arises when using AsyncStorage to store and retrieve data. The issue stems from attempting to access AsyncStorage's methods before the component has fully mounted. This can lead to undefined behavior or errors because AsyncStorage might not be ready yet.
